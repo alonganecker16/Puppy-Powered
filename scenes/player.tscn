@@ -1,0 +1,73 @@
+[gd_scene load_steps=11 format=3 uid="uid://cla85mfw2iduf"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_h3ks1"]
+[ext_resource type="Texture2D" uid="uid://hp6a3xghxii5" path="res://assets/sprites/Ahri_walk_cycle_wip_2.png" id="1_yglk7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o4hdd"]
+atlas = ExtResource("1_yglk7")
+region = Rect2(0, 0, 200, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k37we"]
+atlas = ExtResource("1_yglk7")
+region = Rect2(200, 0, 200, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nkbnf"]
+atlas = ExtResource("1_yglk7")
+region = Rect2(400, 0, 200, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2dvcw"]
+atlas = ExtResource("1_yglk7")
+region = Rect2(600, 0, 200, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_idqbv"]
+atlas = ExtResource("1_yglk7")
+region = Rect2(800, 0, 200, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_77kxg"]
+atlas = ExtResource("1_yglk7")
+region = Rect2(1000, 0, 200, 100)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_j6nes"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o4hdd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k37we")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nkbnf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2dvcw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_idqbv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_77kxg")
+}],
+"loop": true,
+"name": &"walking",
+"speed": 13.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vgg50"]
+radius = 6.0
+height = 24.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_h3ks1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -13)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_j6nes")
+animation = &"walking"
+autoplay = "walking"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, -7)
+rotation = -1.5708
+shape = SubResource("CapsuleShape2D_vgg50")
