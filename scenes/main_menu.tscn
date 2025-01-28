@@ -1,0 +1,47 @@
+[gd_scene load_steps=4 format=3 uid="uid://dy6c11ptw2e5x"]
+
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_0jjha"]
+[ext_resource type="Texture2D" uid="uid://bkfy0andf433" path="res://assets/sprites/dog-their-owners-bed.png" id="1_sptd0"]
+[ext_resource type="AudioStream" uid="uid://dyi61wbvp4l1x" path="res://assets/music/Ahowlnation - Screem.mp3" id="3_eu6gk"]
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource("1_0jjha")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = -364.0
+offset_top = -288.0
+offset_right = 330.0
+offset_bottom = -134.0
+theme_override_font_sizes/mono_font_size = 1
+text = "Puppy Powered!"
+fit_content = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Dog-their-owners-bed" type="Sprite2D" parent="."]
+position = Vector2(1, 1)
+scale = Vector2(0.720625, 0.408125)
+texture = ExtResource("1_sptd0")
+
+[node name="PlayButton" type="Button" parent="."]
+offset_left = -513.0
+offset_top = 194.0
+offset_right = -267.0
+offset_bottom = 296.0
+text = "Play"
+
+[node name="QuitButton" type="Button" parent="."]
+offset_left = 297.0
+offset_top = 199.0
+offset_right = 543.0
+offset_bottom = 301.0
+text = "Quit
+"
+
+[node name="Music" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_eu6gk")
+autoplay = true
+bus = &"Music"
+
+[connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]

@@ -1,2 +1,17 @@
+res://scenes/treat_powerup.tscn
 res://scenes/game.tscn
 res://scenes/player.tscn
+res://scenes/main_menu.tscn
+res://scenes/bat_enemy.tscn
+res://scenes/killzone.tscn
+res://scenes/mainman_enemy.tscn
+res://scripts/player.gd
+res://scripts/game_manager.gd
+res://scripts/treat_powerup.gd
+res://scripts/bat_enemy.gd
+res://scenes/ui.tscn
+res://scenes/ui.gdshader
+res://scenes/peanut_butter_powerup.tscn
+res://scripts/peanut_butter_powerup.gd
+res://scenes/ui.gd
+res://scripts/killzone.gd
