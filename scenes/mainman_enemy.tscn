@@ -1,0 +1,102 @@
+[gd_scene load_steps=15 format=3 uid="uid://8trwkvno3rbo"]
+
+[ext_resource type="Texture2D" uid="uid://obuf8hr8kkdn" path="res://assets/sprites/mailman_summon_bat.png" id="1_fvphm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_saws3"]
+atlas = ExtResource("1_fvphm")
+region = Rect2(0, 0, 200, 300)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4pfif"]
+atlas = ExtResource("1_fvphm")
+region = Rect2(200, 0, 200, 300)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nk2py"]
+atlas = ExtResource("1_fvphm")
+region = Rect2(400, 0, 200, 300)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0oq8k"]
+atlas = ExtResource("1_fvphm")
+region = Rect2(600, 0, 200, 300)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hiip8"]
+atlas = ExtResource("1_fvphm")
+region = Rect2(800, 0, 200, 300)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ouljh"]
+atlas = ExtResource("1_fvphm")
+region = Rect2(1000, 0, 200, 300)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oj8a7"]
+atlas = ExtResource("1_fvphm")
+region = Rect2(1200, 0, 200, 300)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pigon"]
+atlas = ExtResource("1_fvphm")
+region = Rect2(1400, 0, 200, 300)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fickh"]
+atlas = ExtResource("1_fvphm")
+region = Rect2(1600, 0, 200, 300)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nabce"]
+atlas = ExtResource("1_fvphm")
+region = Rect2(1800, 0, 200, 300)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0pph8"]
+atlas = ExtResource("1_fvphm")
+region = Rect2(2000, 0, 200, 300)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_atreb"]
+atlas = ExtResource("1_fvphm")
+region = Rect2(2200, 0, 200, 300)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kk05t"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_saws3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4pfif")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nk2py")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0oq8k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hiip8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ouljh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oj8a7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pigon")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fickh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nabce")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0pph8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_atreb")
+}],
+"loop": true,
+"name": &"summon_bat",
+"speed": 13.0
+}]
+
+[node name="mailman" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_kk05t")
+animation = &"summon_bat"
+frame_progress = 0.69621

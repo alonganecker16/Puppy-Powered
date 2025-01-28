@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://yn58y4yjruw6"
+path="res://.godot/imported/LEASE by Takeshi Abo but slightly bitcrushed for nostalgia.mp3-7941c88ef9ac6f860cb1d72a25e97359.mp3str"
+
+[deps]
+
+source_file="res://assets/music/LEASE by Takeshi Abo but slightly bitcrushed for nostalgia.mp3"
+dest_files=["res://.godot/imported/LEASE by Takeshi Abo but slightly bitcrushed for nostalgia.mp3-7941c88ef9ac6f860cb1d72a25e97359.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

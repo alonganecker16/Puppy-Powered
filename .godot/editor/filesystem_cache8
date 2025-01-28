@@ -1,30 +1,56 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737888100
-::res://assets/::1737886552
-::res://assets/fonts/::1737886570
+::res://::1738054787
+default_bus_layout.tres::AudioBusLayout::5990329069208868417::1738036929::0::1::::<><>::
+icon.png::CompressedTexture2D::5216425924207158515::1738027069::1738027072::1::::<><>::
+::res://assets/::1738036466
+::res://assets/fonts/::1737888200
 PixelOperator8-Bold.ttf::FontFile::2650669049146262726::1737886487::1737886570::1::::<><>::
 PixelOperator8.ttf::FontFile::5093377426620382231::1737886487::1737886570::1::::<><>::
-::res://assets/music/::1737886570
+::res://assets/music/::1738037179
+Ahowlnation - Screem.mp3::AudioStreamMP3::8862239135875696239::1738036790::1738036991::1::::<><>::
+LEASE by Takeshi Abo but slightly bitcrushed for nostalgia.mp3::AudioStreamMP3::1713250905560310579::1738036460::1738037179::1::::<><>::
 time_for_adventure.mp3::AudioStreamMP3::5814255436772481150::1737886487::1737886570::1::::<><>::
-::res://assets/sounds/::1737886570
+::res://assets/sounds/::1738037146
+Bark.mp3::AudioStreamMP3::4303502616634823551::1738036723::1738036991::1::::<><>::
+Cartoon Chomp Sound Effect.mp3::AudioStreamMP3::1286361508153621719::1738037146::1738037146::1::::<><>::
 coin.wav::AudioStreamWAV::4816032765506720865::1737886487::1737886570::1::::<><>::
 explosion.wav::AudioStreamWAV::7748004805003227330::1737886487::1737886570::1::::<><>::
 hurt.wav::AudioStreamWAV::6533861995449936869::1737886487::1737886570::1::::<><>::
 jump.wav::AudioStreamWAV::2298974095380573922::1737886487::1737886570::1::::<><>::
 power_up.wav::AudioStreamWAV::4900546668532632684::1737886487::1737886570::1::::<><>::
 tap.wav::AudioStreamWAV::5223379420148170123::1737886487::1737886570::1::::<><>::
-::res://assets/sprites/::1737886570
-Ahri_Jump_wip_2.png::CompressedTexture2D::8080239731070981179::1737866453::1737866643::1::::<><>::
-Ahri_walk_cycle_wip_2.png::CompressedTexture2D::524171305020069750::1737866459::1737866643::1::::<><>::
+::res://assets/sprites/::1738061185
+Ahri_idle_animation_wip_2.png::CompressedTexture2D::5913336151683794233::1738061180::1738061185::1::::<><>::
+Ahri_Jump_wip_2.png::CompressedTexture2D::8080239731070981179::1738035262::1738035265::1::::<><>::
+Ahri_run_cycle_wip_2.png::CompressedTexture2D::3934387822990818806::1738061276::1738061297::1::::<><>::
+Ahri_walk_cycle_wip_2.png::CompressedTexture2D::524171305020069750::1738061292::1738061297::1::::<><>::
 coin.png::CompressedTexture2D::8208029022093138521::1737886487::1737886570::1::::<><>::
+dog-their-owners-bed.png::CompressedTexture2D::91180378874834112::1737970631::1737970640::1::::<><>::
+dog_treat.png::CompressedTexture2D::5837027115959312163::1738054857::1738054860::1::::<><>::
 fruit.png::CompressedTexture2D::781472155089323460::1737886487::1737886570::1::::<><>::
 knight.png::CompressedTexture2D::7066294543943045457::1737886487::1737886570::1::::<><>::
+mailman_summon_bat.png::CompressedTexture2D::985933202412458587::1738027137::1738027141::1::::<><>::
+Mail_bats_fly.png::CompressedTexture2D::7478757507150535324::1737971317::1737971325::1::::<><>::
+peanut_butter.png::CompressedTexture2D::4054080123208702078::1738060686::1738060690::1::::<><>::
 platforms.png::CompressedTexture2D::5935595386223882156::1737886487::1737886570::1::::<><>::
 slime_green.png::CompressedTexture2D::167424867085342270::1737886487::1737886570::1::::<><>::
 slime_purple.png::CompressedTexture2D::3006781438694428284::1737886487::1737886570::1::::<><>::
 world_tileset.png::CompressedTexture2D::2882884582963081816::1737886487::1737886570::1::::<><>::
-::res://scenes/::1737887678
-game.tscn::PackedScene::3190340670327598868::1737887678::0::1::::<><>::uid://cla85mfw2iduf::::res://scenes/player.tscn<>uid://bhcqxngx0ti21::::res://assets/sprites/world_tileset.png
-player.tscn::PackedScene::5546976521023201321::1737887678::0::1::::<><>::res://scripts/player.gd<>uid://hp6a3xghxii5::::res://assets/sprites/Ahri_walk_cycle_wip_2.png
-::res://scripts/::1737887252
-player.gd::GDScript::-1::1737887252::0::1::::<>CharacterBody2D<>::
+::res://scenes/::1738061229
+bat_enemy.tscn::PackedScene::4771393831529626947::1738057685::0::1::::<><>::res://scripts/bat_enemy.gd<>uid://des1bqjbnn3pw::::res://assets/sprites/Mail_bats_fly.png<>uid://b4jr6bghu2dtv::::res://scenes/killzone.tscn
+game.tscn::PackedScene::3190340670327598868::1738061036::0::1::::<><>::uid://cla85mfw2iduf::::res://scenes/player.tscn<>res://scripts/game_manager.gd<>uid://bhcqxngx0ti21::::res://assets/sprites/world_tileset.png<>uid://b4jr6bghu2dtv::::res://scenes/killzone.tscn<>uid://ceb3jswwh8pdj::::res://scenes/treat_powerup.tscn<>uid://b88kfoe75d4vn::::res://scenes/bat_enemy.tscn<>uid://yn58y4yjruw6::::res://assets/music/LEASE by Takeshi Abo but slightly bitcrushed for nostalgia.mp3<>uid://jc8726pndnrd::::res://scenes/peanut_butter_powerup.tscn
+killzone.tscn::PackedScene::4441564159608676511::1738057685::0::1::::<><>::res://scripts/killzone.gd
+mainman_enemy.tscn::PackedScene::2356527052010025620::1738057685::0::1::::<><>::uid://obuf8hr8kkdn::::res://assets/sprites/mailman_summon_bat.png
+main_menu.tscn::PackedScene::8907959263067902971::1738057685::0::1::::<><>::res://scripts/main_menu.gd<>uid://bkfy0andf433::::res://assets/sprites/dog-their-owners-bed.png<>uid://dyi61wbvp4l1x::::res://assets/music/Ahowlnation - Screem.mp3
+player.tscn::PackedScene::5546976521023201321::1738061229::0::1::::<><>::res://scripts/player.gd<>uid://hp6a3xghxii5::::res://assets/sprites/Ahri_walk_cycle_wip_2.png<>uid://cqip1usfre7dd::::res://assets/sprites/Ahri_idle_animation_wip_2.png<>uid://dneemrhknt6vn::::res://assets/sprites/Ahri_Jump_wip_2.png<>uid://bwb317jjgowk1::::res://assets/sprites/Ahri_run_cycle_wip_2.png<>uid://b2kwcausxxk8n::::res://assets/sounds/Bark.mp3
+peanut_butter_powerup.tscn::PackedScene::637890621135089025::1738061037::0::1::::<><>::uid://bx03dwces2o3w::::res://assets/sprites/peanut_butter.png<>res://scripts/peanut_butter_powerup.gd
+ui.tscn::PackedScene::4675404001353424541::1738061036::0::1::::<><>::uid://cgk41jn2a1tqx::::res://icon.png
+treat_powerup.tscn::PackedScene::5057378248051244387::1738061037::0::1::::<><>::uid://cpfq8pjiyd5n0::::res://assets/sprites/dog_treat.png<>res://scripts/treat_powerup.gd<>uid://sleglepqxab4::::res://assets/sounds/Cartoon Chomp Sound Effect.mp3
+::res://scripts/::1738060988
+bat_enemy.gd::GDScript::-1::1738060988::0::1::::<>Node2D<>::
+killzone.gd::GDScript::-1::1738028410::0::1::::<>Area2D<>::
+main_menu.gd::GDScript::-1::1738016563::0::1::::<>Node2D<>::
+player.gd::GDScript::-1::1738059146::0::1::::<>CharacterBody2D<>::
+game_manager.gd::GDScript::-1::1738059124::0::1::::<>Node<>::
+peanut_butter_powerup.gd::GDScript::-1::1738060911::0::1::::<>Area2D<>::
+treat_powerup.gd::GDScript::-1::1738058939::0::1::::<>Area2D<>::
